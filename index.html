@@ -24,10 +24,10 @@
                 <div class="logo"></div>
                 <div class="nav-bar">
                     <ul class="nav-options">
-                        <li>Recent Releases</li>
+                        <a href="index.html"><li>Recent Releases</li></a>
                         <li>Popular Albums</li>
-                        <li>About Label</li>
-                        <li>My Playlists</li>
+                        <a href="pages/about.html"><li>About Label</li></a>
+                        <a href="pages/playlists.html"><li>My Playlists</li></a>
                     </ul>
                     <div class="search-bar">Search...</div>
 
@@ -49,7 +49,7 @@
 
         <div class="row">
             <div class="col-6">
-                <div class="vid"><iframe src="https://www.youtube.com/embed/XaDk1L-B0Gc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                <div class="vid"><iframe class="tube" src="https://www.youtube.com/embed/p7z50KR48Ro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
             </div>
             <div class="col-6">
                 <div class="feat-art">
@@ -61,11 +61,11 @@
         </div>
 
         <div class="row">
-            <h3>RECENT RELEASES</h3>
+            <h3 class="r-text">RECENT RELEASES</h3>
             <div class="col-3">
                 <div class="artwork" style="background-image: url(/assets/albumcovers/6lack-since-i-have-a-lover-album-cover-1140x1140.jpg);">
                     <div class="album-hover">
-                        <div class="play-icon"></div>
+                        <div class="play-icon"><img src="/assets/Icons/play_icon.svg" alt="Play"></div>
                         <div class="hover-info">
                             <div class="h-text">
                                 <h3>6LACK</h3>
@@ -80,7 +80,7 @@
             <div class="col-3">
                 <div class="artwork" style="background-image: url(assets/albumcovers/Kali-Uchis-Red-Moon-in-Venus.webp);">
                     <div class="album-hover">
-                        <div class="play-icon"></div>
+                        <div class="play-icon"><img src="/assets/Icons/play_icon.svg" alt="Play"></div>
                         <div class="hover-info">
                             <div class="h-text">
                                 <h3>Kali Uchis</h3>
@@ -95,7 +95,7 @@
             <div class="col-3">
                 <div class="artwork" style="background-image: url(assets/albumcovers/masego-album-1140x1140.jpg);">
                     <div class="album-hover">
-                        <div class="play-icon"></div>
+                        <div class="play-icon"><img src="/assets/Icons/play_icon.svg" alt="Play"></div>
                         <div class="hover-info">
                             <div class="h-text">
                                 <h3>Masego</h3>
@@ -111,7 +111,7 @@
             <div class="col-3">
                 <div class="artwork" style="background-image: url(assets/albumcovers/Lil-Yachty-Lets-Start-Here.webp);">
                     <div class="album-hover">
-                        <div class="play-icon"></div>
+                        <div class="play-icon"><img src="/assets/Icons/play_icon.svg" alt="Play"></div>
                         <div class="hover-info">
                             <div class="h-text">
                                 <h3>Lil Yatchy</h3>
@@ -125,12 +125,12 @@
         </div>
 
         <div class="row">
-            <h3>POPULAR RELEASES</h3>
+            <h3 class="r-text">POPULAR RELEASES</h3>
 
             <div class="col-3">
                 <div class="artwork" style="background-image: url(/assets/albumcovers/popularalbums/sza-sos.jpg);">
                     <div class="album-hover">
-                        <div class="play-icon"></div>
+                        <div class="play-icon"><img src="/assets/Icons/play_icon.svg" alt="Play"></div>
                         <div class="hover-info">
                             <div class="h-text">
                                 <h3>SZA</h3>
@@ -145,7 +145,7 @@
             <div class="col-3">
                 <div class="artwork" style="background-image: url(/assets/albumcovers/popularalbums/blxckie-4luv-deluxe.jpeg);">
                     <div class="album-hover">
-                        <div class="play-icon"></div>
+                        <div class="play-icon"><img src="/assets/Icons/play_icon.svg" alt="Play"></div>
                         <div class="hover-info">
                             <div class="h-text">
                                 <h3>Blxckie</h3>
@@ -161,7 +161,7 @@
             <div class="col-3 end">
                 <div class="artwork" style="background-image: url(/assets/albumcovers/popularalbums/brent-faiyaz-wasteland.webp);">
                     <div class="album-hover">
-                        <div class="play-icon"></div>
+                        <div class="play-icon"><img src="/assets/Icons/play_icon.svg" alt="Play"></div>
                         <div class="hover-info">
                             <div class="h-text">
                                 <h3>Brent Faiyaz</h3>
@@ -176,7 +176,7 @@
             <div class="col-3">
                 <div class="artwork" style="background-image: url(assets/albumcovers/popularalbums/The-Weeknd.webp);">
                     <div class="album-hover">
-                        <div class="play-icon"></div>
+                        <div class="play-icon"><img src="/assets/Icons/play_icon.svg" alt="Play"></div>
                         <div class="hover-info">
                             <div class="h-text">
                                 <h3>The Weeknd</h3>
@@ -193,11 +193,11 @@
             <div class="col-3">
                 <div class="artwork" style="background-image: url(/assets/albumcovers/popularalbums/nija.webp);">
                     <div class="album-hover">
-                        <div class="play-icon"></div>
+                        <div class="play-icon"><img src="/assets/Icons/play_icon.svg" alt="Play"></div>
                         <div class="hover-info">
                             <div class="h-text">
                                 <h3>Nija</h3>
-                                <h1>Don't Say I Didnt'...</h1>
+                                <h1>Don't Say I Didn't...</h1>
                             </div>
                            <div class="like"></div>
                         </div>
@@ -208,7 +208,7 @@
             <div class="col-3">
                 <div class="artwork" style="background-image: url(/assets/albumcovers/popularalbums/mkw-2nd-place.jpg);">
                     <div class="album-hover">
-                        <div class="play-icon"></div>
+                        <div class="play-icon"><img src="/assets/Icons/play_icon.svg" alt="Play"></div>
                         <div class="hover-info">
                             <div class="h-text">
                                 <h3>M.K.W</h3>
@@ -223,7 +223,7 @@
             <div class="col-3">
                 <div class="artwork" style="background-image: url(/assets/albumcovers/popularalbums/jhene-trip.jpg);">
                     <div class="album-hover">
-                        <div class="play-icon"></div>
+                        <div class="play-icon"><img src="/assets/Icons/play_icon.svg" alt="Play"></div>
                         <div class="hover-info">
                             <div class="h-text">
                                 <h3>Jhené Aiko</h3>
@@ -239,7 +239,7 @@
             <div class="col-3 end">
                 <div class="artwork" style="background-image: url(/assets/albumcovers/popularalbums/smino-blkswn.webp);">
                     <div class="album-hover">
-                        <div class="play-icon"></div>
+                        <div class="play-icon"><img src="/assets/Icons/play_icon.svg" alt="Play"></div>
                         <div class="hover-info">
                             <div class="h-text">
                                 <h3>Smino</h3>
@@ -252,8 +252,13 @@
             </div>
         </div>
 
-        <div class="footer">
-            <h3>Stream &copy 2023</h3>
+        <div class="row">
+            <div class="col-12 footer">
+                <h3>Stream &copy 2023</h3>
+                <div class="socials">
+                    <div class="s-icon"><img src="/assets/Icons/" alt=""></div>
+                </div>
+            </div>
         </div>
 
     </div>
